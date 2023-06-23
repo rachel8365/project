@@ -1,0 +1,45 @@
+#contect {
+    background: #c8ccd8;
+}
+
+.contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact ul li {
+    font-size: 1.5rem;
+    line-height: 2.5;
+    margin-bottom: 15px;
+}
+
+.contact ul li i {
+    color: #37b3ed;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: #e6e6e6;
+    text-align: center;
+    line-height: 2;
+    font-size: 1.5rem;
+    border-radius: 50px;
+}
+
+.contact button {
+    background-color: #37b3ed;
+    color: #fff;
+}
+
+#toTop {
+    bottom: 10px;
+    right: 10px;
+    position: fixed;
+    background-color: #149DDD;
+    width: 30px;
+    height: 30px;
+    border-radius: 660px;
+    border: #149DDD;
+    color: #fff;
+    padding-left: 8px;
+    padding-top: 2px;
+}
