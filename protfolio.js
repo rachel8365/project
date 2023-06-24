@@ -2,28 +2,30 @@ let projects = [
     {
         image: "./img/takeIt.jpg",
         name: "TachIT",
-        description: "Shop stor",
-        stack: " HTML, Bootstrap, JavaScript",
+        description: "A store website for electrical products, it is possible to view the products, in existing and new branches, as well as to view the full details of the product and mark it as a favorite",
+        stack: "html, Java Script, Boot-Strap",
         linkNetlifi: "https://techit-rachel.netlify.app",
         linkGit: "https://github.com/rachel8365/07.05.git",
     },
     {
         image: "./img/myAccount.jpg",
         name: "My Account",
-        description: "you can account your incoms eand exports",
-        stack: " HTML, Bootstrap, JavaScript, fontawsome",
+        description: "A convenient application for organizing finances. It is possible to enter an amount of money and the nature of the expenditure / income and to watch actions at any time, and it is also possible to edit or delete",
+        stack: "html, Java Script, Boot-Strap ,Font awsome",
         linkNetlifi: " https://my-account-rachel.netlify.app",
         linkGit: "https://github.com/rachel8365/ACCOUNT.git",
     },
     {
         image: "./img/manageu.jpg",
         name: "ManageU",
-        description: "you can account your incoms eand exports",
-        stack: " HTML, Bootstrap, TypeScript, JavaScript, fontawsome",
+        description: "A convenient application for managing tasks - it is possible to enter several actions that have not yet been done and there is the possibility to edit the action - delete and mark it - as completed",
+        stack: "html, Java Script, Type Script, Boot-Strap ,Font awesome",
         linkNetlifi: "https://manageu-rachel.netlify.app",
         linkGit: "https://github.com/rachel8365/manageu.git",
     },
 ]
+
+
 function projectGalery() {
     for (let project of projects) {
         document.getElementById("projects").innerHTML += `
