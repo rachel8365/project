@@ -114,8 +114,8 @@ let details = {
 }
 document.getElementById("information1").innerHTML += `<li><i class="fa-solid fa-chevron-right"></i> Name: ${details.name}</li>
 <li><i class="fa-solid fa-chevron-right"></i> Email: ${details.email}</li>
-<li><i class="fa-solid fa-chevron-right"></i> fone: ${details.fone}</li>`;
+<li><i class="fa-solid fa-chevron-right"></i> Phone: ${details.fone}</li>`;
 document.getElementById("information2").innerHTML += `<li><i class="fa-solid fa-chevron-right"></i> Profession: ${details.profession}</li>
-<li><i class="fa-solid fa-chevron-right"></i> age: ${details.age}</li>
-<li><i class="fa-solid fa-chevron-right"></i> city: ${details.city}</li>`;
+<li><i class="fa-solid fa-chevron-right"></i> Age: ${details.age}</li>
+<li><i class="fa-solid fa-chevron-right"></i> City: ${details.city}</li>`;
 
