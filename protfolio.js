@@ -3,32 +3,32 @@ let projects = [
         image: "./img/bizpost.jpg",
         name: "Bis- Post",
         description: "A development of an Internet application that includes awebsite management system that allows business users to publish content, the published content is available in different parts of the website.The view and permissions vary depending on the type of user logged in",
-        stack: "react, Type Script, css, Boot-Strap ,Font awesome",
-        linkNetlifi: "https://manageu-rachel.netlify.app",
+        stack: "react, Type Script, css, Bootstrap ,Font awesome",
+        /* linkNetlifi: "", */
         linkGit: "https://github.com/rachel8365/biz-post",
     },
     {
         image: "./img/takeIt.jpg",
         name: "Tachit",
         description: "A store website for electrical products, it is possible to view the products, in existing and new branches, as well as to view the full details of the product and mark it as a favorite",
-        stack: "react, nodeJS, mongoDB, typeScript, Boot-Strap",
-        linkNetlifi: "https://techit-rachel.netlify.app",
-        linkGit: "https://github.com/rachel8365/07.05.git",
+        stack: "react, nodeJS, mongoDB, typeScript, Bootstrap",
+        /*  linkNetlifi: "", */
+        linkGit: "https://github.com/rachel8365/techit",
     },
     {
         image: "./img/myAccount.jpg",
         name: "My Account",
         description: "A convenient application for organizing finances. It is possible to enter an amount of money and the nature of the expenditure / income and to watch actions at any time, and it is also possible to edit or delete",
-        stack: "html, Java Script, Boot-Strap ,Font awsome",
-        linkNetlifi: " https://my-account-rachel.netlify.app",
+        stack: "html, Java Script, Bootstrap ,Font awsome",
+        /*  linkNetlifi: " https://my-account-rachel.netlify.app", */
         linkGit: "https://github.com/rachel8365/ACCOUNT.git",
     },
     {
         image: "./img/manageu.jpg",
         name: "ManageU",
         description: "A convenient application for managing tasks - it is possible to enter several actions that have not yet been done and there is the possibility to edit the action - delete and mark it - as completed",
-        stack: "html, Java Script, Type Script, Boot-Strap ,Font awesome",
-        linkNetlifi: "https://manageu-rachel.netlify.app",
+        stack: "html, Java Script, Type Script, Bootstrap ,Font awesome",
+        /*  linkNetlifi: "https://manageu-rachel.netlify.app", */
         linkGit: "https://github.com/rachel8365/manageu.git",
     }
 ]
@@ -40,8 +40,7 @@ function projectGalery() {
         <div class="col-lg-4 col-md-12 col-sm-12 mt-4" >
             <div class="card h-100 w-20"  >
             <a href="${project.linkNetlifi}" target="_blank">
-            <img src="${project.image}" class="card-img-top" alt="${project.name}"></a>
-                
+            <img src="${project.image}" class="card-img-top" alt="${project.name}"></a>                
                 <div class="card-body">
                     <h5 class="card-title">${project.name}</h5>
                     <p class="card-text">${project.description}</p>
@@ -50,7 +49,7 @@ function projectGalery() {
                     <li class="list-group-item">${project.stack}</li>
                 </ul>
                 <div class="card-body">
-                    <a href="${project.linkNetlifi}" target="_blank" class="card-link">NETLIFY</a>
+                     
                     <a href="${project.linkGit}" target="_blank" class="card-link">GITHUB <i class="fa-brands fa-github"></i></a>
                 </div>
                 </div>
