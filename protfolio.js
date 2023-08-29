@@ -1,9 +1,17 @@
 let projects = [
     {
+        image: "./img/bizpost.jpg",
+        name: "Bis- Post",
+        description: "A development of an Internet application that includes awebsite management system that allows business users to publish content, the published content is available in different parts of the website.The view and permissions vary depending on the type of user logged in",
+        stack: "react, Type Script, css, Boot-Strap ,Font awesome",
+        linkNetlifi: "https://manageu-rachel.netlify.app",
+        linkGit: "https://github.com/rachel8365/biz-post",
+    },
+    {
         image: "./img/takeIt.jpg",
-        name: "TachIT",
+        name: "Tachit",
         description: "A store website for electrical products, it is possible to view the products, in existing and new branches, as well as to view the full details of the product and mark it as a favorite",
-        stack: "html, Java Script, Boot-Strap",
+        stack: "react, nodeJS, mongoDB, typeScript, Boot-Strap",
         linkNetlifi: "https://techit-rachel.netlify.app",
         linkGit: "https://github.com/rachel8365/07.05.git",
     },
@@ -22,14 +30,14 @@ let projects = [
         stack: "html, Java Script, Type Script, Boot-Strap ,Font awesome",
         linkNetlifi: "https://manageu-rachel.netlify.app",
         linkGit: "https://github.com/rachel8365/manageu.git",
-    },
+    }
 ]
 
 
 function projectGalery() {
     for (let project of projects) {
         document.getElementById("projects").innerHTML += `
-        <div class="col-lg-4 col-md-12 col-sm-12" >
+        <div class="col-lg-4 col-md-12 col-sm-12 mt-4" >
             <div class="card h-100 w-20"  >
             <a href="${project.linkNetlifi}" target="_blank">
             <img src="${project.image}" class="card-img-top" alt="${project.name}"></a>

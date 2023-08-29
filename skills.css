@@ -1,14 +1,14 @@
 .resume ul {
-    padding: 0;
     list-style: none;
 }
 
-.resume ul li {
-    padding: 0 10px;
-}
+/* .resume ul li {
+    padding: 30px;
+} */
 
 .resume ul li i {
     font-size: 4rem;
+    padding: 10px;
 }
 
 .resume__skills {
@@ -22,6 +22,4 @@
 
 #logos {
     display: flex;
-    justify-content: center;
-    align-items: center;
 }

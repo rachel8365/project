@@ -45,3 +45,8 @@ section {
     font-family: 'Alkatra', cursive;
     font-family: 'Dancing Script', cursive;
 }
+
+.center-logos {
+    justify-content: center;
+    align-items: center;
+}
